@@ -25,13 +25,12 @@ body {
 }
 
 .blue-field {
-    background:linear-gradient(rgba(165, 105, 189),rgba(253, 254, 254));
+    background: linear-gradient(rgba(165, 105, 189),rgba(253, 254, 254));
     height: 200px;
     width: 100%;
-
 }
 
-.form-container {                   
+.form-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,8 +73,6 @@ body {
     padding: 10px;
     border-radius: 5px;
     margin: 25px 0px;
-    margin-right: 10px;
-
 }
 
 .form-container .form-wrapper .form-field-container .form-field .field-title { 
@@ -124,18 +121,9 @@ body {
     right: 20px;
     padding: 10px;
 }
-.blue-field.logo{
-    position: relative;
-
-    width: 300px;
-    height: 150px;
-    top: 10px;
+.blue-field .logo {
+    position: absolute;
+    top: 20px;
     left: 10px;
-    
-}
-
-
-.logo{
-    padding-top: 20px;
-    padding-left: 10px;
-}
+    border-radius: 10px;
+   }
